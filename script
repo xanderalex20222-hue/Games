@@ -1,0 +1,15 @@
+local GamesScripts = {
+    [93175840396003] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xanderalex20222-hue/Mine-A-Lucky-Block/refs/heads/main/script"))()
+    end,
+
+    [111163751370052] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xanderalex20222-hue/Quiet-Tides-Script/refs/heads/main/obfuscated_script-1770076959794.lua"))()
+    end,
+}
+
+local GameId = game.PlaceId
+
+if GamesScripts[GameId] then
+    GamesScripts[GameId]()
+end
