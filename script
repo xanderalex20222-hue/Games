@@ -1,4 +1,3 @@
-
 local GamesScripts = {
      [0] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xanderalex20222-hue/template/refs/heads/main/script"))()
@@ -9,11 +8,11 @@ local GamesScripts = {
     end,
 
     [111163751370052] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xanderalex20222-hue/fish/refs/heads/main/script"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xanderalex20222-hue/Quiet-Tides-Script/refs/heads/main/script"))()
     end,
 
     [113771745033724] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xanderalex20222-hue/fish/refs/heads/main/script"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xanderalex20222-hue/Quiet-Tides-Script/refs/heads/main/script"))()
     end,
 }
 
